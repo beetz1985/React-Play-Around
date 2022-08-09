@@ -36,3 +36,53 @@
     transform: rotate(360deg);
   }
 }
+
+
+/**********MY CSS********/
+
+html {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.wrapper {
+  margin: 50px auto;
+  max-width:500px;
+  border:1px solid lightblue;
+  box-shadow: 8px 10px 12px -1px rgba(0,0,0,0.38);
+}
+
+.header, .main-content, .footer {
+  padding: 20px;
+}
+
+.header {
+  background-color: rgb(155, 180, 255);
+}
+
+.footer {
+  background-color: lightgrey;
+}
+
+.navigation_menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.image_logo {
+  width:80px;
+}
+
+.nav-items {
+  /* Reset */
+  list-style:none;
+  margin: 0;
+  padding: 0;
+
+  display:flex;
+}
+
+.nav-items > li {
+  padding:10px;
+  cursor: pointer;
+}
